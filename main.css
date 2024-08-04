@@ -1,15 +1,20 @@
 html {
-    background-color: hsl(288, 0%, 15%);
+    background-color: hsl(0, 0%, 93%);
     color: hsl(0, 100%, 100%);
     text-align: center;
+}
+
+h1 {
+    color: hsl(217, 100%, 17%);
 }
 
 #main_sec {
     display: inline-block;
     padding: 40px;
-    background-color: hsl(5, 37%, 55%);
+    width: 80%;
+    background-color: hsl(217, 60%, 25%);
     border-radius: 20px;
-
+    text-align: center;
 }
 
 #tabs ul {
@@ -41,7 +46,7 @@ html {
 }
 
 .secs {
-    width: 80%;
+    width: 90%;
     margin: auto;
     height: 500px;
     text-align: center;
@@ -50,7 +55,7 @@ html {
 }
 
 .about_me {
-    background-color: hsl(360, 47%, 20%);
+    background-color: hsl(217, 18%, 68%);
 }
 
 #tabs li.about_me {
@@ -63,17 +68,32 @@ html {
 }
 
 .projects {
-    background-color: hsl(360, 47%, 29%);
+    background-color: hsl(218, 18%, 59%);
     display: none;
 }
 
+#projectsSec ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0px;
+    font-size: 20px;
+}
+
+#projectsSec li a {
+    color: hsl(0, 100%, 100%);
+}
+
+#projectsSec li a:hover {
+    color: hsl(5, 37%, 81%);
+}
+
 .skills {
-    background-color: hsl(360, 47%, 37%);
+    background-color: hsl(217, 20%, 51%);
     display: none;
 }
 
 .contact {
-    background-color: hsl(360, 47%, 48%);
+    background-color: hsl(217, 27%, 42%);
     display: none;
 }
 
